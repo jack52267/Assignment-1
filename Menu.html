@@ -1,35 +1,113 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
+	<head> 
 	<title>Menu</title> 
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="themes/MainTheme.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+	</head> 
 
 <body class="ui-mobile-viewport">  
 
-<div id="Menu" data-role="page">
+<div id="Menu" data-role="page" data-theme="a">
   <div data-role="header" data-position="fixed">
     <h3>Menu</h3>
   </div>
-  <div role="main" class="ui-content">
+  <div role="main" class="ui-content" data-theme="a">
     <ul data-role="listview" data-inset="true">
-      <li data-role="list-divider">Divider</li>
+      <li data-role="list-divider">CHEF's Suggestions</li>
       <li>
-        <a href="Item.html">
-          <img src="http://jqmdesigner.appspot.com/images/image.png" class="ui-li-icon">Item</a>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:80px">Peking Duck</a>
       </li>
-      <li data-role="list-divider">Divider</li>
       <li>
-        <a href="#">
-          <img src="http://jqmdesigner.appspot.com/images/image.png" class="ui-li-icon">Item</a>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
       </li>
-      <li data-role="list-divider">Divider</li>
       <li>
-        <a href="#">
-          <img src="http://jqmdesigner.appspot.com/images/image.png" class="ui-li-icon">Item</a>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
+      </li>
+	 <li>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
+      </li>
+	  <li>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
+      </li>
+	  <li>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
+      </li>
+	  <li>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
+      </li>
+	  <li>
+        <a href="Item.html" rel="external">
+          <img src="img/PekingDuck.jpg" class="ui-li-icon;weight:80px,height:160px">Peking Duck</a>
       </li>
     </ul>
+  </div>
+</div>
+
+<div id="item1" data-role="page" data-theme="a">
+  <div data-role="header" data-position="fixed">
+    <h3>Item1</h3>
+  </div>
+  <div role="main" class="ui-content">
+    <center>
+      <img style="width:90%;" src="http://jqmdesigner.appspot.com/images/image.png" is="image">
+    </center>
+    <div is="raty" score="3"></div>
+    <h1 is="gk-text">Text</h1>
+  </div>
+  <div data-position="fixed" data-role="footer">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <a data-icon="home">BtnA</a>
+        </li>
+        <li>
+          <a data-icon="star">BtnB</a>
+        </li>
+        <li>
+          <a data-icon="star">BtnC</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="item2" data-role="page" data-theme="a">
+  <div data-role="header" data-position="fixed">
+    <h3>Item2</h3>
+  </div>
+  <div role="main" class="ui-content">
+    <center>
+      <img style="width:90%;" src="http://jqmdesigner.appspot.com/images/image.png" is="image">
+    </center>
+    <div is="raty" score="3"></div>
+    <h1 is="gk-text">Text</h1>
+  </div>
+  <div data-position="fixed" data-role="footer">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <a data-icon="home">BtnA</a>
+        </li>
+        <li>
+          <a data-icon="star">BtnB</a>
+        </li>
+        <li>
+          <a data-icon="star">BtnC</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 </body>
