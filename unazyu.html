@@ -1,8 +1,8 @@
 <!DOCTYPE html> 
 <html>
-<!-- The Heading file with CSS Theme --> 
+<!-- The Heading file with CSS Theme -->
 	<head> 
-	<title>Home</title> 
+	<title>UnaDon (鰻重)</title> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="themes/MainTheme.min.css" />
@@ -11,16 +11,26 @@
 	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
 	</head> 
 
-<body class="ui-mobile-viewport">    
-<div id="home" data-role="page" data-theme="a">
-<!-- Loading Theme Selection --> 
+<body class="ui-mobile-viewport">  
+<div id="Item" data-role="page" is="page" data-theme="a">
+<!-- Loading Theme Selection -->
+  <div data-role="header" data-position="fixed">
+    <h3>UnaDon (鰻重)</h3>
+  </div>
+  <!-- Description and details -->
   <div role="main" class="ui-content">
     <center>
-      <img style="width:50%;" src="http://www.yoshinoya.com/common/images/header_logo001.gif" is="yoshinoya">
+      <img style="width:50%;" src="img/img_unazyu_unazyu.jpg" is="image">
+	  <h1 is="gk-text">UnaDon (鰻重)</h1>
+	  <h4 align="center" is="gk-text">UnaDon is a dish originating in Japan. It consists of a donburi type large bowl filled with steamed white rice</h4>
+	  <h4 align="center" is="gk-text">and topped with fillets of eel (unagi) grilled in a style known as kabayaki, similar to teriyaki.</h4>
+	  <h3>Price: Large: $12.5   Regular: $9.5</h3>
     </center>
-  <div role="main" class="ui-content"></div>
-  <div data-position="fixed" data-role="footer">
-  <h1 is="gk-text">Welcome to Yoshinoya</h1>
+  </div>
+
+  
+<!-- Footer Menu -->
+      <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
@@ -38,7 +48,6 @@
       </ul>
     </div>
   </div>
-</div>
 </div>
 </body>
 </html>

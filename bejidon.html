@@ -1,8 +1,8 @@
 <!DOCTYPE html> 
 <html>
-<!-- The Heading file with CSS Theme --> 
+<!-- The Heading file with CSS Theme -->
 	<head> 
-	<title>Home</title> 
+	<title>Vegetable Don (ベジ丼)</title> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="themes/MainTheme.min.css" />
@@ -11,16 +11,26 @@
 	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
 	</head> 
 
-<body class="ui-mobile-viewport">    
-<div id="home" data-role="page" data-theme="a">
-<!-- Loading Theme Selection --> 
+<body class="ui-mobile-viewport">  
+<div id="Item" data-role="page" is="page" data-theme="a">
+<!-- Loading Theme Selection -->
+  <div data-role="header" data-position="fixed">
+    <h3>Vegetable Don (ベジ丼)</h3>
+  </div>
+  <!-- Description and details -->
   <div role="main" class="ui-content">
     <center>
-      <img style="width:50%;" src="http://www.yoshinoya.com/common/images/header_logo001.gif" is="yoshinoya">
+      <img style="width:50%;" src="img/img_bejidon_beji.jpg" is="image">
+	  <h1 is="gk-text">Vegetable Don (ベジ丼)</h1>
+	  <h4 align="center" is="gk-text">If you like to eat Vegetables, vegetable don is your best choice</h4>
+	  <h4 align="center" is="gk-text">Fresh vegetables slow cooked with Japanese wagyu sauce gives you warm heart</h4>
+	  <h3>Price: Large: $10   Regular: $8</h3>
     </center>
-  <div role="main" class="ui-content"></div>
-  <div data-position="fixed" data-role="footer">
-  <h1 is="gk-text">Welcome to Yoshinoya</h1>
+  </div>
+
+  
+<!-- Footer Menu -->
+      <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
@@ -38,7 +48,6 @@
       </ul>
     </div>
   </div>
-</div>
 </div>
 </body>
 </html>

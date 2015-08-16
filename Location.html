@@ -1,5 +1,6 @@
 <!DOCTYPE html> 
-<html> 
+<html>
+<!-- The Heading file with CSS Theme -->
 	<head> 
 	<title>Location</title> 
 	<meta charset="utf-8">
@@ -10,19 +11,43 @@
 	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
 	</head> 
 
-<body class="ui-mobile-viewport" data-theme="a">   
+<body class="ui-mobile-viewport">   
 <div id="Location" data-role="page" is="page" data-theme="a">
+<!-- Loading Theme Selection --> 
   <div data-role="header" data-position="fixed">
     <h3>Location</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="http://jqmdesigner.appspot.com/images/image.png" is="image">
-    </center>
-    <h1 is="gk-text">Text</h1>
+	<!--insert Image -->
+      <img style="width:90%;" src="img/img_map.jpg" is="image">
+		<p is="gk-text">
+		Address:	〒131-0045 Tokyo-to, Sumida-ku, Oshiage
+		</p>
+	</center>
     <hr></hr>
-    <a class="ui-btn">Show on Google Map</a>
-    <a class="ui-btn" href="tel:1555555555">Contack us</a>
+    <a class="ui-btn" href="https://www.google.com.au/maps/place/Japan,+%E3%80%92131-0045+T%C5%8Dky%C5%8D-to,+Sumida-ku,+Oshiage,+1+Chome%E2%88%9219%E2%88%921+%E5%90%89%E9%87%8E%E5%AE%B6%E6%8A%BC%E4%B8%8A%E5%BA%97/@35.7115718,139.8158379,18.75z/data=!4m2!3m1!1s0x60188f299859e7e9:0x65a36ee3d7157ae8">Show on Google Map</a>
+    <a class="ui-btn" href="tel:03-5631-22200">Contack us</a>
+  </div>
+  
+<!-- Footer Menu -->
+   <div data-position="fixed" data-role="footer">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <a data-icon="home" href="Menu.html">Menu</a>
+        </li>
+        <li>
+          <a data-icon="search" href="Location.html">Our Location</a>
+        </li>
+        <li>
+          <a data-icon="star" href="Feedback.html">Give us FeedBack</a>
+        </li>
+        <li>
+          <a data-icon="info" href="About.html">About us</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 </body>
